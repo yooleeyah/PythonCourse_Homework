@@ -1,11 +1,7 @@
 def DeMorgansLaw(x,y,z):
     if (not(x or y or z) == ((not x) and (not y) and (not z))): print('True')
     else: print('False')
-DeMorgansLaw(0,0,0)
-DeMorgansLaw(0,0,1)
-DeMorgansLaw(0,1,0)
-DeMorgansLaw(0,1,1)
-DeMorgansLaw(1,0,0)
-DeMorgansLaw(1,0,1)
-DeMorgansLaw(1,1,0)
-DeMorgansLaw(1,1,1)
+for i in 0,1:
+    for j in 0,1:
+        for k in 0,1:
+            DeMorgansLaw(i,j,k)
