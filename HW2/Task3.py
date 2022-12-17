@@ -6,7 +6,7 @@ for i in list:
     list[i] = number
     number += 1
 print(list)
-indexList = [2,2,3,1,6]
+indexList = [2,2,3,1,8]
 mult = 1
 i = 0
 for i in indexList: 
