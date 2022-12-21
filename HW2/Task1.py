@@ -3,4 +3,4 @@ mult = 1
 for i in range(number): 
     mult *= number
     number -= 1
-print(mult)
+    print(mult)
