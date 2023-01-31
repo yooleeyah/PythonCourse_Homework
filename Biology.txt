@@ -1,0 +1,3 @@
+Bing 5 5 5 5
+Geller 4 4 4
+Tribbiani 3 3 3

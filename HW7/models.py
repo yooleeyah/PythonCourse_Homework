@@ -12,6 +12,6 @@ def ShowBook():
     with open('phoneBook.txt', 'r') as file:
         data = file.read()
         print(data)
-    # with open('phoneBook.csv', 'r') as file2:
-    #     data2 = file2.read()
-    #     print(data2)
+    with open('phoneBook.csv', 'r') as file2:
+        for line in file2:
+            print(line, end = " ")
