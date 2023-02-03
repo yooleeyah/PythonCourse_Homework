@@ -8,7 +8,7 @@ dispatcher = updater.dispatcher
 
 
 def start(update: Update, context: CallbackContext):
-    context.bot.send_message(update.effective_chat.id, 'Введите выражение: ')
+    context.bot.send_message(update.effective_chat.id, 'Привет! Я бот, вычисляющий арифметические выражения. Введи выражение: ')
 
 def calc(update: Update, context: CallbackContext):
     expression = update.message.text
